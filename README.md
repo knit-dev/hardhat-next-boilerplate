@@ -20,7 +20,7 @@ It runs up a Hardhat node, compile contracts, generates typescript interfaces, c
 11. Give the profile a name and click "Add"
 12. In this new browser window, install Metamask and import the keyphrase above
 13. Ensure Metamask RPC is set to `http://localhost:8545` and chainID `31337`.
-14. Start the React app: `npm start`
+14. Start the React app: `npm run dev`
 
 The frontend should open at http://localhost:3000/
 
