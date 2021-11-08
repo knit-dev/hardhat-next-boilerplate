@@ -5,6 +5,7 @@ import 'hardhat-deploy';
 import '@symfoni/hardhat-react';
 import 'hardhat-typechain';
 import '@typechain/ethers-v5';
+import '@openzeppelin/hardhat-upgrades';
 
 import { HardhatUserConfig, task } from 'hardhat/config';
 
@@ -56,7 +57,7 @@ const config: HardhatUserConfig = {
   solidity: {
     compilers: [
       {
-        version: "0.7.3",
+        version: "0.8.0",
         settings: {
           optimizer: {
             enabled: true,
